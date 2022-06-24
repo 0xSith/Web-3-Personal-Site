@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #FFFFFF;
+  background: linear-gradient(#040303, #929AAB);
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.125rem;
+}
+
+.Headers {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+}
+
+hr {
+  margin: .625rem auto;
+  border: none;
+  border-top: .5rem dotted #3E00FF;
+  width: 5%;
+}
+
+h2 {
+  padding: .625rem;
+}
+
+a {
+  text-decoration: none;
+  color: #98FEFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+  color: #80B6FF;
+}
+
+.Table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5625rem;
+}
+
+.top-container {
+  padding-top: 6.25rem;
+}
+
+.Stars {
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  right: 0;
+}
+
+.Profile-Pic {
+  height: 17%;
+  width: 17%;
+  border-radius: 50%;
+}
+
+.Astronaut {
+  position: absolute;
+  left: 12%;
+  top: 12%;
+  width: 15%;
+  height: 20%;
+}
+
+.Moon {
+  position: absolute;
+  right: 18%;
+  top: 1%;
+  width: 19.5%;
+  height: 22.5%;
+}
+
+.Rocket {
+  position: absolute;
+  bottom: 1%;
+  right: 10%;
+  width: 17%;
+}
+
+.Coding-Loop {
+  border-radius: 50%;
+  height: 50%;
+  width: 25%;
+}
+
+.footer-link {
+  margin: .75rem;
+}
+
+.btn {
+  background: #19FF2A;
+  background-image: -webkit-linear-gradient(top, #19FF2A, #09B315);
+  background-image: -moz-linear-gradient(top, #19FF2A, #09B315);
+  background-image: -ms-linear-gradient(top, #19FF2A, #09B315);
+  background-image: -o-linear-gradient(top, #19FF2A, #09B315);
+  background-image: linear-gradient(to bottom, #19FF2A, #09B315);
+  border-radius: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: .625rem;
+  text-decoration: none;
+  position: relative;
+  margin: auto;
+}
+
+.btn:hover {
+  background: #00FFAB;
+  background-image: -webkit-linear-gradient(top, #00FFAB, #82DBD8);
+  background-image: -moz-linear-gradient(top, #00FFAB, #82DBD8);
+  background-image: -ms-linear-gradient(top, #00FFAB, #82DBD8);
+  background-image: -o-linear-gradient(top, #00FFAB, #82DBD8);
+  background-image: linear-gradient(to bottom, #00FFAB, #82DBD8);
+  text-decoration: none;
+  color: #1B262C;
+}
+
+.Eth1 {
+  position:absolute;
+  left: 1.5%;
+  height: 35%;
+  bottom: 1%;
+}
+
+.Eth2 {
+  position: absolute;
+  right: 1.5%;
+  height: 35%;
+  bottom: 1%;
+}
+
+.Copyright {
+  font-size: .8125rem;
+  color: #EBEBE3;
+}
+.relative {
+  position: relative;
+}
+
+@media (max-width:992px) {
+.Moon{
+  height:19%;
+}
+}
+@media (max-width:768px) {
+  .Moon{
+right: 10%;
+  }
+  .Rocket{
+    width:15%;
+    right:7%;
+  }
+  .Coding-Loop{
+    border-radius: 0%;
+  }
+}
