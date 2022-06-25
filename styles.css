@@ -156,6 +156,12 @@ right: 10%;
   .Coding-Loop{
     border-radius: 0%;
   }
+    .Eth1{
+    height:25%;
+  }
+  .Eth2{
+      height:25%;
+    }
 }
 @media (max-width:480px) {
   body{
