@@ -157,8 +157,20 @@ right: 10%;
     border-radius: 0%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width:480px) {
   body{
-    height:100vh;
+    font-size:.8rem;
+  }
+  .btn{
+    font-size: .7rem;
+  }
+  .Eth1{
+    height:25%;
+  }
+  .Eth2{
+    height:25%;
+  }
+  .Table{
+    padding:4%;
   }
 }
