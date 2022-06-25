@@ -6,7 +6,6 @@ body {
   background: linear-gradient(#040303, #929AAB);
   font-family: 'Raleway', sans-serif;
   font-size: 1.125rem;
-  height:100vh;
 }
 
 .Headers {
@@ -156,5 +155,10 @@ right: 10%;
   }
   .Coding-Loop{
     border-radius: 0%;
+  }
+}
+@media (max-width: 600px) {
+  body{
+    height:100vh;
   }
 }
