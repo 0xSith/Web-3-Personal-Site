@@ -182,8 +182,10 @@ right: 10%;
   .Astronaut{
     height:15%;
     width:12%;
+    left:7%;
   }
   .Moon{
-    height:18%;
-    width:15%;
+    height:15%;
+    width:12%;
+    right:5%;
 }
